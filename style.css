@@ -1,0 +1,217 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    font-family: 'Roboto', sans-serif;
+}
+
+/* Navber section  Style */
+.navbar{
+    width: 100%;
+    padding: 10px 0;
+}
+.max-width{
+    padding: 0 70px;
+    margin: auto;
+}
+.navbar .max-width{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.navbar .logo a{
+    color:black;
+    font-size: 35px;
+    font-weight: 600;
+}
+.navbar .logo a span{
+    color: orangered;
+}
+.navbar li{
+    display: inline-block;
+}
+.navbar li a{
+    display: block;
+    color: black;
+    font-size: 18px;
+    font-weight: 500;
+    margin-right: 25px;
+}
+
+/* Welcome section  Style */
+
+h1{
+    font-size: 50px;
+}
+h2{
+    font-size: 40px;
+}
+p{
+    font-size: 15px;
+    padding-top: 15px;
+    color: dimgray;
+}
+.text-highlight{
+    color:#FF8367;
+    text-transform: uppercase;
+}
+.text-highlight2{
+    color: #363958;
+    text-transform: uppercase;
+}
+.h-width{
+    width: 40%;
+    float: left;
+    margin-left: 5%;
+    padding-left: 2%;
+    padding-top: 50px;
+    
+}
+.rk {
+    width: 50%;
+    height: 100%;
+    float: left;
+    margin-left: 0px;
+    padding-left: 10%;
+}
+
+section{
+    height: 500px;
+    padding-bottom: 150px;
+}
+.btn{
+    display: inline-block;
+    background: #F76961;
+    color: #fff;
+    padding: 14px 36px;
+    margin-top: 50px;
+    border-radius: 5px;
+}
+
+/* work section styling */
+
+.work{
+    background-color:#F8F9FC;
+    height: 580px;
+}
+
+.wrapper{
+    width: 100%;
+    margin: 60px;
+}
+
+.section-header{
+    text-align: center;
+    margin-bottom: 70px;
+    padding-top: 50px;
+    font-size: 25px;
+}
+
+.letter{
+    color:#F46060;
+}
+
+.teams-work{
+    width: 29%;
+    height: auto;
+    float: left;
+    box-shadow: 1px 1px 40px gray;
+    position: relative;
+    display: block;
+    padding: 10px;
+    text-align: center;
+    margin: 0 5px;
+    border-radius: 10px;
+   
+}
+
+.teams-work img{
+    width: 100%;
+}
+.teams-work h3{
+    margin: 0;
+    padding: 10px;
+    font-size: 20px;
+    color: #363958;
+}
+ .teams-work p{
+     color: dimgray;
+ }
+
+ /* Work inquiry section styling */
+
+ .box{
+     margin-left: 15%;
+ }
+ .text{
+    text-transform: uppercase;
+    position: absolute; 
+    bottom: 70px; 
+    left: 20px; 
+    margin: 5px;
+    font-size: 35px;
+    color: white;
+ }
+ .container {
+     padding-top: 100px;
+     margin-left: 15px;
+     position: relative;
+     width: 50%;
+  }
+  
+  .container img {
+    width: 700px;
+    height: 160px;
+  }
+  .container .btn2 {
+
+    background: #F76961;
+    color: #fff;
+    border-radius: 6px;
+    padding: 5px 20px 10px 20px;
+    position: absolute; 
+    bottom: 70px; 
+    left: 540px; 
+  }
+
+  /* footer section style */
+  
+  .icons h3{
+      font-size: small;
+      color: dimgray;
+      text-align: center;
+      margin-top: 65px;
+  }
+  .icons h2{
+   font-size:x-large;
+   color: #363958;
+   text-align: center;
+   margin-top: 10px;
+   height: ;
+  }
+  .icon{
+      margin-left:430px; 
+      padding: 10px;
+  }
+  .icon1{
+      height: 40px;
+      padding: 5px;
+  }
+  .icon2{
+    height: 40px;
+    padding: 5px;
+}
+.icon3{
+    height: 40px;
+    padding: 5px;
+}
+
+  
+
+
+
+
+
+
